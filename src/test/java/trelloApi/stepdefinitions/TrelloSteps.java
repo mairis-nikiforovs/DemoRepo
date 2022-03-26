@@ -22,8 +22,10 @@ public class TrelloSteps {
         System.out.println("We check that the board name was updated");
     }
 
-    @Then("I add a list with title {string} to the board")
-    public void addNewList(String name){
-        System.out.println("We add a new List with name " + name);
+    
+    // This is anew comment
+
+    public void test(){
+
     }
 }
